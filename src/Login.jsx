@@ -22,12 +22,13 @@ const Login = () => {
 <div className='flex flex-col w-[60%] pt-[1rem] space-y-[2rem]'>
     <TextField id="filled-basic" label="Username" variant="filled" />
     <TextField id="filled-basic" label="Email" variant="filled" />
-    
-    <button className='bg-gradient-to-r from-[#83C44C] to-[#149C78] py-[0.8rem] text-[white]'>
+    <Link to='/nextpage'>
+    <button className='bg-gradient-to-r w-full from-[#83C44C] to-[#149C78] py-[0.8rem] text-[white]'>
     <div className='w-[25%] mx-auto'>
     <img src={group} alt=""/>
     </div>
     </button>
+    </Link>
     
     <div className='flex mx-auto gap-[5px] mt-[3rem] items-center text-center font-normal font-sans'>
     <Link to='/signup'>

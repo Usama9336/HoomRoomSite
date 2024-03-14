@@ -5,6 +5,7 @@ import header from './assets/header.png'
 import TextField from '@mui/material/TextField';
 import { Box, Button } from '@mui/material';
 import group from './assets/Group.png'
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
@@ -24,11 +25,13 @@ const Signup = () => {
     <TextField id="filled-basic" label="Email" variant="filled" />
     <TextField id="filled-basic" label="Mobile" variant="filled" />
     <TextField  type='password' id="filled-basic" label="Password" variant="filled"  />
-    <button className=' bg-gradient-to-r from-[#83C44C] to-[#149C78] text-[white] py-[0.8rem]'>
+    <Link to='/nextpage'>
+    <button className='w-full bg-gradient-to-r from-[#83C44C] to-[#149C78] text-[white] py-[0.8rem]'>
     <div className='w-[25%] mx-auto'>
     <img src={group} alt=""/>
     </div>
     </button>
+    </Link>
     <div className='flex mx-auto gap-[5px] mt-[3rem] items-center text-center font-normal font-sans'>
     <p className='text-[#616161] text-[12.8px] font-normal'>Are you a Newbie?</p>
     <p className='text-[black] text-[12.8px] font-bold'> GET STARTED - IT'S FREE</p>
