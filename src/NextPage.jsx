@@ -127,7 +127,7 @@ const contents=[
     <p className='text-[22px] bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text font-bold'>Wall Hung- WC With PP Soft Close Seat Cover</p>
 </div>
 <div className='flex py-[1rem] sm:py-[0px] flex-col sm:flex-row'>
-<div className='sm:w-[25%] mx-[1rem]'>
+<div className='sm:w-[25%] mx-auto'>
     <img src={rectangle} alt="" />
 </div>
 <div className='sm:hidden py-[1.2rem] text-center'>
