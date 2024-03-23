@@ -3,7 +3,7 @@ import up from './assets/Up.png'
 
 const Cards = ({title,newprice,oldprice,difference}) => {
   return (
-    <div className='shadow-xl w-[31%] py-[0.5rem] rounded-xl'>
+    <div className='shadow-xl sm:w-[31%] py-[1rem] sm:py-[0.5rem] rounded-xl'>
 <p className='ml-[1rem] text-[20px] font-bold text-[#404040]'>{title}</p>
 <div className='p-[1rem]'>
 <div className='flex text-[#565656] justify-between text-[16px] font-normal'>

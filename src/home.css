@@ -6,3 +6,21 @@
     height: 100vh;
     width: 100vw;
 }
+.hidden-on-small {
+    display: none;
+  }
+  
+  /* Define a CSS class for showing elements on small screens */
+  .visible-on-small {
+    display: block;
+  }
+  
+  /* Media query for small screens */
+  @media screen and (max-width: 768px) {
+    .visible-on-small {
+      display: none;
+    }
+    .hidden-on-small {
+      display: block;
+    }
+  }
