@@ -50,7 +50,7 @@ const Signup = () => {
     <div className='sm:ml-[0px] w-[66%] sm:w-[46%] ml-[1.5rem]'>
     <img src={header} alt="" width='' />
     </div>
-<div className='flex flex-col w-[90%] mx-auto sm:mx-[0px] sm:w-[60%] pt-[1rem] space-y-[2rem]'>
+<div className='flex flex-col w-[90%] mx-auto sm:mx-[0px] sm:w-[60%] pt-[1rem] space-y-[1.4rem]'>
     <TextField id="filled-basic" label="Username" variant="filled" />
     <TextField id="filled-basic" label="Email" variant="filled" />
     <TextField id="filled-basic" label="Mobile" variant="filled" />
@@ -71,7 +71,7 @@ const Signup = () => {
         </div>
         <div className='w-[46%] hidden sm:block my-[1rem]'>
             <div className=' '>
-<img src={pattern} alt="" />
+<img src={pattern} alt="" className='w-[90%]' />
         </div>
         </div>
     </div>
