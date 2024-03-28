@@ -5,10 +5,10 @@ import { TextField } from '@mui/material'
 import MenuItem from '@mui/material/MenuItem';
 import vector from './assets/Vector.png'
 import { Link } from 'react-router-dom';
-import c from './assets/c.png'
-import m2 from './assets/m2.png'
-import m from './assets/m.png'
-import s from './assets/s.png'
+import cc from './assets/c.png'
+import m22 from './assets/m2.png'
+import mm from './assets/m.png'
+import ss from './assets/s.png'
 const currencies = [
   {
     value: 'USD',
@@ -34,16 +34,16 @@ const Home = () => {
     <div id='background'>
 <div className='flex justify-between p-[1rem] items-center'>
     <div className=' flex gap-[0.5rem]'>
-    <img src={c} alt="" className='w-[10%] sm:w-[5%]' />
+    <img src={cc} alt="" className='w-[10%] sm:w-[5%]' />
     <div className='w-[60%] sm:w-[30%]'>
       <div className='flex justify-end'>
-<img src={m} alt="" className='w-[22%]' />
+<p className='text-[white] font-semilight text-[12px]'>Mehta Group</p>
       </div>
       <div>
-<img src={m2} alt="" />
+<img src={m22} alt="" />
       </div>
-      <div className='mt-[0.4rem] flex justify-end'>
-<img src={s} alt=""  className='w-[26%] '/>
+      <div className='mt-[0.2rem] flex justify-end'>
+<p className='text-[white] text-[16px]'>Since 1944</p>
       </div>
     </div>
     </div>
