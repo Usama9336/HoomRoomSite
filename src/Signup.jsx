@@ -7,19 +7,21 @@ import { Box, Button } from '@mui/material';
 import group from './assets/Group.png'
 import { Link } from 'react-router-dom';
 import './Login.css'
-
+import sign from './assets/sign.png'
+import log from './assets/log.png'
+import chev from './assets/chevron-right.png'
 const Signup = () => {
   return (
 <div>
     <div className='sm:flex sm:items-center sm:m-[8px] sm:w-[80%] sm:mx-auto'>
 <div id='pattern' className='py-[1.2rem] px-[1rem]'>
     <div  className='mx-[1rem] my-[1rem] py-[0.4rem] sm:hidden flex flex-col space-y-[1rem] bg-[white]'>
- <div className='w-[66%] ml-[1.5rem] sm:ml-[0px] sm:w-[48%]'>
+ <div className='w-[66%] ml-[1.5rem] sm:ml-[0px] sm:w-[45%]'>
  <img src={logo} alt=""/>
  </div>
  <div className=''>
-    <div className='sm:ml-[0px] w-[66%] sm:w-[46%] ml-[1.5rem]'>
-    <img src={header} alt="" width='' />
+    <div className='sm:ml-[0px] ml-[1.5rem]'>
+    <img src={log} alt="" width='' />
     </div>
 <div className='flex flex-col w-[90%] mx-auto sm:mx-[0px] sm:w-[60%] pt-[1rem] space-y-[2rem]'>
     <TextField id="filled-basic" label="Username" variant="filled" />
@@ -43,12 +45,12 @@ const Signup = () => {
 
         </div>
         <div className='hidden sm:flex flex-col space-y-[1rem]'>
- <div className='w-[66%] ml-[1.5rem] sm:ml-[0px] sm:w-[48%]'>
+ <div className='w-[66%] ml-[1.5rem] sm:ml-[0px] sm:w-[44%]'>
  <img src={logo} alt=""/>
  </div>
  <div className=''>
-    <div className='sm:ml-[0px] w-[66%] sm:w-[42%] ml-[1.5rem]'>
-    <img src={header} alt="" width='' />
+    <div className='sm:ml-[0px] w-[66%] sm:w-[50%] ml-[1.5rem]'>
+    <img src={log} alt="" width='' />
     </div>
 <div className='flex flex-col w-[90%] mx-auto sm:mx-[0px] sm:w-[60%] pt-[1rem] space-y-[1.4rem]'>
     <TextField id="filled-basic" label="Username" variant="filled" />
@@ -57,8 +59,9 @@ const Signup = () => {
     <TextField  type='password' id="filled-basic" label="Password" variant="filled"  />
     <Link to='/nextpage'>
     <button className='w-full bg-gradient-to-r from-[#83C44C] to-[#149C78] text-[white] py-[0.8rem]'>
-    <div className='w-[28%] mx-auto'>
-    <img src={group} alt="" className='w-[85%]'/>
+    <div className='w-[18%] flex gap-[0.2rem] items-center mx-auto'>
+        <p className='text-[13.8px] sm:text-[12.8px] font-normal'>CONTINUE</p>
+    <img src={chev} alt="" className='w-[18%] '/>
     </div>
     </button>
     </Link>
@@ -69,7 +72,7 @@ const Signup = () => {
  </div>
  </div>
         </div>
-        <div className='w-[46%] hidden sm:block my-[1rem]'>
+        <div className='w-[60%] hidden sm:block my-[1rem]'>
             <div className=' '>
 <img src={pattern} alt="" className='w-[90%]' />
         </div>
