@@ -65,58 +65,30 @@ const contents=[
         </Link>
     </div>
 </div>
-<div className='bg-[white]  w-[96%] mx-auto mt-[1rem] '>
-        <div className='hidden sm:flex  mx-auto justify-between shadow-xl px-[1.6rem] py-[0.8rem] rounded-xl'>
-    <TextField
-          id="outlined-select-currency"
-          select
-          defaultValue="Product Brand"
-          className=' w-[24%] bg-[white]'
-        >
-          {currencies.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField>
-    <TextField id="searchbar" type="search"  
-    placeholder='Search Product Code Here'
-    className='rounded-xl w-[72%] bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text' data-text="Your Text Here"
-     InputProps={{
-        startAdornment: (
-          <InputAdornment position="start">
-            <IconButton className=''>
-             <img src={search} alt="" />
-             
-            </IconButton>
-          </InputAdornment>
-        ),
-      }}
-    
-    />
-    <button className='bg-gradient-to-r from-[#83C44C] to-[#149C78] py-[0.9rem] text-[white] sm:hidden   sm:px-[2.5rem] shadow-xl sm:mt-[0px] '>
-        <div className='flex gap-[8px] items-center'>
-            <div className='w-[20%]'>
-        <img src={vector} alt="" />
-        </div>
-        <p>Search</p>
-        </div>
-        </button>
-
-        </div>
-        <div className='sm:hidden flex  mx-auto justify-between shadow-xl px-[1rem] py-[0.8rem] rounded-xl'>
+<div className='bg-[white] rounded-xl w-[96%] mx-auto mt-[0.8rem] '>
+        <div className=' flex  mx-auto justify-between shadow-xl px-[1rem] py-[0.8rem] rounded-xl'>
     
     <TextField id="searchbar" type="search"  
-    placeholder='Search Product Code Here'
-    className='rounded-xl w-[75%] bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text' data-text="Your Text Here"
-    
+    placeholder='Search Product'
+    className='rounded-xl w-[70%] sm:w-[78%] bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text' data-text="Your Text Here"
+    InputProps={{
+      startAdornment: (
+        <InputAdornment position="start">
+          <IconButton className=''>
+           <img src={search} alt="" />
+           
+          </IconButton>
+        </InputAdornment>
+      ),
+    }}
     />
-    <button className='bg-gradient-to-r from-[#83C44C] to-[#149C78] py-[0.9rem] text-[white] sm:hidden px-[0.6rem]  sm:px-[2.5rem] shadow-xl sm:mt-[0px] '>
+    <button className='bg-gradient-to-r from-[#83C44C] to-[#149C78] py-[0.9rem] sm:w-[20%] text-[white] px-[0.6rem]  sm:mx-auto sm:px-[6.2rem] shadow-xl sm:mt-[0px] '>
         <div className='flex gap-[4px] items-center'>
             <div className=''>
         <img src={vector} alt="" />
         </div>
-        <p className='text-[15px]'>Search</p>
+        <p className='hidden sm:block text-[15px]'>SEARCH</p>
+        <p className=' sm:hidden text-[15px]'>Search</p>
         </div>
         </button>
 
@@ -127,8 +99,8 @@ const contents=[
     <p className='text-[22px] bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text font-bold'>Wall Hung- WC With PP Soft Close Seat Cover</p>
 </div>
 <div className='flex py-[1rem] sm:py-[0px] flex-col sm:flex-row'>
-<div className='sm:w-[25%] mx-auto'>
-    <img src={rectangle} alt="" />
+<div className='sm:w-[24%] sm:mx-[0rem] mx-auto '>
+    <img src={rectangle} alt="" className='sm:w-[95%] '  />
 </div>
 <div className='sm:hidden py-[1.2rem] text-center'>
     <p className='text-[17px] sm:text-[22px] text-center bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text font-bold'>Wall Hung- WC With PP Soft Close Seat Cover</p>
