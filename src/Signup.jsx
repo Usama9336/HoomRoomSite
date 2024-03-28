@@ -7,7 +7,6 @@ import { Box, Button } from '@mui/material';
 import group from './assets/Group.png'
 import { Link } from 'react-router-dom';
 import './Login.css'
-import sign from './assets/sign.png'
 import log from './assets/log.png'
 import chev from './assets/chevron-right.png'
 const Signup = () => {
