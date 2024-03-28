@@ -53,8 +53,8 @@ const contents=[
   return (
     <div className='h-screen w-[100vw]'>
 <div className='flex justify-between px-[1rem]  border-[black] py-[0.5rem] sm:py-[0px] w-full shadow-xl'>
-    <div className=''>
-    <img src={logo} alt="" className='w-[63%] sm:w-[38%]' />
+    <div className='py-[0.5rem]'>
+    <img src={logo} alt="" className='w-[63%] sm:w-[35%]' />
     </div>
     <div className='hidden sm:flex gap-[1.3rem] items-center mr-[1rem]'>
     <Link to='/login'><p className='hover:cursor-pointer  bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text text-[18px] font-sans'>Login</p></Link>
@@ -117,7 +117,7 @@ const contents=[
     })
    }
 </div>
-<div className='mt-[1.5rem] w-[100%] sm:w-[75%] mx-[0px] sm:mx-auto shadow-xl '>
+<div className='mt-[1.5rem] w-[100%] sm:w-[75%] mx-[0px]  shadow-xl '>
 <Nexttable/>
 </div>
 </div>
