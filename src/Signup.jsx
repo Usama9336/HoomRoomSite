@@ -47,7 +47,7 @@ const Signup = () => {
  <img src={logo} alt=""/>
  </div>
  <div className=''>
-    <div className='sm:ml-[0px] w-[66%] sm:w-[46%] ml-[1.5rem]'>
+    <div className='sm:ml-[0px] w-[66%] sm:w-[42%] ml-[1.5rem]'>
     <img src={header} alt="" width='' />
     </div>
 <div className='flex flex-col w-[90%] mx-auto sm:mx-[0px] sm:w-[60%] pt-[1rem] space-y-[1.4rem]'>
@@ -58,7 +58,7 @@ const Signup = () => {
     <Link to='/nextpage'>
     <button className='w-full bg-gradient-to-r from-[#83C44C] to-[#149C78] text-[white] py-[0.8rem]'>
     <div className='w-[28%] mx-auto'>
-    <img src={group} alt=""/>
+    <img src={group} alt="" className='w-[85%]'/>
     </div>
     </button>
     </Link>
