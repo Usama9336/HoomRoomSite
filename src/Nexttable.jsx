@@ -67,7 +67,7 @@ export default function Nexttable() {
                 </TableCell>
               <TableCell >
               <p className='bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text '>{row.gst}</p>
-                
+          
                 </TableCell>
              
             </TableRow>
