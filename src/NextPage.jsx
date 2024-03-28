@@ -54,7 +54,7 @@ const contents=[
     <div className='h-screen w-[100vw]'>
 <div className='flex justify-between px-[1rem]  border-[black] py-[0.5rem] sm:py-[0px] w-full shadow-xl'>
     <div className=''>
-    <img src={logo} alt="" className='w-[63%] sm:w-[44%]' />
+    <img src={logo} alt="" className='w-[63%] sm:w-[38%]' />
     </div>
     <div className='hidden sm:flex gap-[1.3rem] items-center mr-[1rem]'>
     <Link to='/login'><p className='hover:cursor-pointer  bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text text-[18px] font-sans'>Login</p></Link>
@@ -82,11 +82,9 @@ const contents=[
       ),
     }}
     />
-    <button className='bg-gradient-to-r from-[#83C44C] to-[#149C78] py-[0.9rem] sm:w-[20%] text-[white] px-[0.6rem]  sm:mx-auto sm:px-[6.2rem] shadow-xl sm:mt-[0px] '>
+    <button className='flex itms-center bg-gradient-to-r from-[#83C44C] to-[#149C78] py-[0.9rem] sm:w-[20%] text-[white] px-[0.6rem]  sm:mx-auto sm:px-[6rem] shadow-xl sm:mt-[0px] '>
         <div className='flex gap-[4px] items-center'>
-            <div className=''>
-        <img src={vector} alt="" />
-        </div>
+        <img src={vector} alt="" className='' />
         <p className='hidden sm:block text-[15px]'>SEARCH</p>
         <p className=' sm:hidden text-[15px]'>Search</p>
         </div>
@@ -119,7 +117,7 @@ const contents=[
     })
    }
 </div>
-<div className='mt-[1.5rem] shadow-xl '>
+<div className='mt-[1.5rem] w-[85%] mx-auto shadow-xl '>
 <Nexttable/>
 </div>
 </div>
