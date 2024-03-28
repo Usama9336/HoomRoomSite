@@ -31,7 +31,7 @@ const Home = () => {
     <div id='background'>
 <div className='flex justify-between p-[1rem] items-center'>
     <div className=''>
-    <img src={logo} alt="" className='w-[68%] sm:w-[50%]' />
+    <img src={logo} alt="" className='w-[68%] sm:w-[40%]' />
     </div>
     <div className='w-[60%] flex items-center sm:w-auto mr-[0rem] sm:mr-[3rem]'>
     <Link to="/login">
