@@ -33,7 +33,7 @@ const Home = () => {
     <div className=''>
     <img src={logo} alt="" className='w-[68%] sm:w-[50%]' />
     </div>
-    <div className='w-[70%] flex items-center sm:w-auto mr-[1rem] sm:mr-[3rem]'>
+    <div className='w-[60%] flex items-center sm:w-auto mr-[0rem] sm:mr-[3rem]'>
     <Link to="/login">
         <p className='text-[#D00000] bg-[white] mr-[-1rem] text-[14px] sm:text-[17px] p-[0.4rem] sm:py-[0.5rem] sm:px-[1.5rem] font-sans hover:cursor-pointer border-[1px] rounded-xl '>Log Out</p>
         </Link>
