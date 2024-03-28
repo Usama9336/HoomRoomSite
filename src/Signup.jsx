@@ -7,7 +7,7 @@ import { Box, Button } from '@mui/material';
 import group from './assets/Group.png'
 import { Link } from 'react-router-dom';
 import './Login.css'
-import log from './assets/log.png'
+import log1 from './assets/log.png'
 import chev from './assets/chevron-right.png'
 const Signup = () => {
   return (
@@ -20,7 +20,7 @@ const Signup = () => {
  </div>
  <div className=''>
     <div className='sm:ml-[0px] ml-[1.5rem]'>
-    <img src={log} alt="" width='' />
+    <img src={log1} alt="" width='' />
     </div>
 <div className='flex flex-col w-[90%] mx-auto sm:mx-[0px] sm:w-[60%] pt-[1rem] space-y-[2rem]'>
     <TextField id="filled-basic" label="Username" variant="filled" />
@@ -49,7 +49,7 @@ const Signup = () => {
  </div>
  <div className=''>
     <div className='sm:ml-[0px] w-[66%] sm:w-[50%] ml-[1.5rem]'>
-    <img src={log} alt="" width='' />
+    <img src={log1} alt="" width='' />
     </div>
 <div className='flex flex-col w-[90%] mx-auto sm:mx-[0px] sm:w-[60%] pt-[1rem] space-y-[1.4rem]'>
     <TextField id="filled-basic" label="Username" variant="filled" />
