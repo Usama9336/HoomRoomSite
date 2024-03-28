@@ -46,7 +46,7 @@ const Login = () => {
  <img src={logo} alt=""/>
  </div>
  <div className=''>
-    <div className='sm:ml-[0px] w-[66%] sm:w-[46%] ml-[1.5rem]'>
+    <div className='sm:ml-[0px] w-[66%] sm:w-[42%] ml-[1.5rem]'>
     <img src={header} alt=""  />
     </div>
 <div className='flex flex-col w-[90%] mx-auto sm:mx-[0px] sm:w-[60%] pt-[1rem] space-y-[1.8rem]'>
@@ -55,7 +55,7 @@ const Login = () => {
     <Link to='/nextpage'>
     <button className='bg-gradient-to-r w-full from-[#83C44C] to-[#149C78] py-[0.8rem] text-[white]'>
     <div className='w-[28%] mx-auto'>
-    <img src={group} alt=""/>
+    <img src={group} alt="" className='w-[85%]'/>
     </div>
     </button>
     </Link>
