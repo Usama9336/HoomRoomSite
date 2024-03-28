@@ -117,7 +117,7 @@ const contents=[
     })
    }
 </div>
-<div className='mt-[1.5rem] w-[85%] mx-auto shadow-xl '>
+<div className='mt-[1.5rem] w-[100%] sm:w-[75%] mx-[0px] sm:mx-auto shadow-xl '>
 <Nexttable/>
 </div>
 </div>
