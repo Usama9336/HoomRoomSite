@@ -28,7 +28,7 @@ export default function Nexttable() {
             
             </TableCell>
           <TableCell >
-          <p className='ml-[-2rem] sm:ml-[-3.5rem] text-[13px] text-[#565656] font-bold' >NRP</p>
+          <p className='ml-[-2rem] sm:ml-[-2.5rem] text-[13px] text-[#565656] font-bold' >NRP</p>
             
             </TableCell>
           <TableCell>
@@ -36,11 +36,11 @@ export default function Nexttable() {
             
             </TableCell>
           <TableCell>
-          <p className='text-[13px] text-[#565656] font-bold' > SDP To MRP</p>
+          <p className='text-[13px] text-[#565656] font-bold' > SDP TO MRP</p>
             
             </TableCell>
             <TableCell >
-            <p className='text-[13px] text-[#565656] font-bold' > SDP To NRP</p>
+            <p className='text-[13px] text-[#565656] font-bold' > SDP TO NRP</p>
              
               </TableCell>
             <TableCell >
@@ -58,7 +58,7 @@ export default function Nexttable() {
             >
               
               <TableCell>{row.fat}</TableCell>
-              <TableCell><p className='ml-[-2rem] sm:ml-[-3.5rem]'>{row.carbs}</p></TableCell>
+              <TableCell><p className='ml-[-2rem] sm:ml-[-2.5rem]'>{row.carbs}</p></TableCell>
               <TableCell >{row.protein}</TableCell>
               <TableCell ><p className='bg-gradient-to-r from-[#83C44C] to-[#149C78] inline-block text-transparent bg-clip-text '>{row.srp}</p></TableCell>
               <TableCell >
