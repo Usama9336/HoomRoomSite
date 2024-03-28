@@ -17,8 +17,8 @@ const rows = [
 
 export default function Nexttable() {
   return (
-    <TableContainer component={Paper} style={{ maxHeight: 270, overflowY: 'auto' }} >
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+    <TableContainer component={Paper} style={{ maxHeight: 270, overflowY: 'auto' , maxWidth:850}} >
+      <Table sx={{ minWidth: 550 }} aria-label="simple table">
         <TableHead >
           <p className='text-[#404040] text-[
 20.11px] font-bold ml-[0.8rem] mt-[0.6rem]'>HEADING</p>
