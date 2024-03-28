@@ -5,7 +5,7 @@ import { TextField } from '@mui/material'
 import MenuItem from '@mui/material/MenuItem';
 import vector from './assets/Vector.png'
 import { Link } from 'react-router-dom';
-import cc from './assets/c.png'
+import c1 from './assets/c.png'
 import m22 from './assets/m2.png'
 import mm from './assets/m.png'
 import ss from './assets/s.png'
@@ -34,7 +34,7 @@ const Home = () => {
     <div id='background'>
 <div className='flex justify-between p-[1rem] items-center'>
     <div className=' flex gap-[0.5rem]'>
-    <img src={cc} alt="" className='w-[10%] sm:w-[5%]' />
+    <img src={c1} alt="" className='w-[10%] sm:w-[5%]' />
     <div className='w-[60%] sm:w-[30%]'>
       <div className='flex justify-end'>
 <p className='text-[white] font-semilight text-[12px]'>Mehta Group</p>
